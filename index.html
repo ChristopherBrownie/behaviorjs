@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Test behaviorjs</title>
+        <script src="src/main.js"></script>
+        <script src="src/behaviors/menu.js"></script>
+        <script src="src/behaviors/dialog.js"></script>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <!-- Menu (dropdown) section -->
+        <section>
+            <div data-js-menu>
+                <button data-js-menu-button>Open Me</button>
+                <div data-js-menu-items style="display: none">
+                    <a href="#" data-js-menu-item>Option 1</a>
+                    <a href="#" data-js-menu-item>Option 2</a>
+                </div>
+            </div>
+        </section>
+        <!-- Dialog (modal) section -->
+        <div data-js-dialog style="display: none">
+            <div data-js-dialog-panel>
+                <div data-js-dialog-title>Modal</div>
+                <div data-js-dialog-description>This is a modal</div>
+            </div>
+        </div>
+    </body>
+</html>

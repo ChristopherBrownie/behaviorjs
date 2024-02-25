@@ -1,0 +1,5 @@
+# Files for prettier to ignore (not format)
+# Add 'prettier-ignore' in a comment to ignore any item in a file
+**/node_modules
+**/.git
+.gitignore

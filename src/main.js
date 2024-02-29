@@ -1,3 +1,3 @@
 // Central settings
 
-const prefix = 'data-js-';
+window.prefix = 'data-js-';

@@ -1,9 +1,8 @@
 > This project is currently under development and is not meant for use at this time.
 
-Unstyled js components based on the philosophy of [RSJS](https://github.com/rstacruz/rsjs).
-Accessible and fully functional advanced components by just utilizing HTML attributes. These components are completely style-agnostic so they they look and feel like they belong anywhere.
+Style-agnostic, accessible, fully functional js components based on the philosophy of [RSJS](https://github.com/rstacruz/rsjs).
 
--   If you're using React or Vue, we recommend [Headless UI](https://headlessui.com) as an alternative.
+-   If you're using React or Vue, we recommend something like [Headless UI](https://headlessui.com) as an alternative.
 -   If you'd like basic styles out of the box, [Bootstrap](https://getbootstrap.com) is a great place to start.
 
 > The following serves as a running to do list and will be updated with documentation later on.

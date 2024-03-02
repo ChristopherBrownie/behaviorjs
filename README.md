@@ -1,4 +1,27 @@
-TODO:
+> This project is currently under development and is not meant for use at this time.
+
+Unstyled js components based on the philosophy of [RSJS](https://github.com/rstacruz/rsjs).
+Accessible and fully functional advanced components by just utilizing HTML attributes. These components are completely style-agnostic so they they look and feel like they belong anywhere.
+
+-   If you're using React or Vue, we recommend [Headless UI](https://headlessui.com) as an alternative.
+-   If you'd like basic styles out of the box, [Bootstrap](https://getbootstrap.com) is a great place to start.
+
+> The following serves as a running to do list and will be updated with documentation later on.
+
+### Dialog (modal)
+
+[x] attrs: dialog, dialog-panel, dialog-title, dialog-description
+[] when opened, focus state moves inside the dialog to first item
+[] focus is trapped in open dialog, when reaching end it cycles back to beginning
+[x] click outside dialog panel will close dialog
+[x] pressing escape will close the dialog
+[] `aria-labelledby="ID_REFERENCE"` to dialog-title on dialog-panel
+[] `aria-describedby="ID_REFERENCE"` to dialog-description on dialog-panel
+[] specify specific item to focus when opened
+[x] portal to render dialog as sibling to the root-most node (child of body)
+[] transitions for opening/closing
+[] separate transitions for backdrop and dialog panel
+[x] dialog panel has `role=dialog` and `aria-modal=true`
 
 ### Menu (drop down)
 
@@ -31,21 +54,10 @@ Advanced Keyboard interactions
 [] Enter/Space with menu open: click current option
 [] any letter with menu open: focus first item that matches input
 
-### Dialog (modal)
-
-[] attrs: dialog, dialog-panel `<button>`, dialog-title `<div>`, dialog-description `<a>`
-[] when opened, focus state moves inside the dialog to first item
-[] focus is trapped in open dialog, when reaching end it cycles back to beginning
-[] click outside dialog panel will close dialog
-[] pressing escape will close the dialog
-[] `aria-labelledby="ID_REFERENCE"` to dialog-title on dialog-panel
-[] `aria-describedby="ID_REFERENCE"` to dialog-description on dialog-panel
-[] specify specific item to focus when opened
-[] portal to render dialog as sibling to the root-most node (child of body)
-[] transitions for opening/closing
-[] separate transitions for backdrop and dialog panel
-[] dialog panel has `role=dialog` and `aria-modal=true`
-
 ### Popover
+
+TBD
+
+### Tabs
 
 TBD

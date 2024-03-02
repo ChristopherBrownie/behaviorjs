@@ -12,8 +12,9 @@
     <body>
         <!-- Menu (dropdown) section -->
         <section>
+            Menus
             <div data-js-menu>
-                <button data-js-menu-button>Open Me</button>
+                <button data-js-menu-button>Open Menu</button>
                 <div data-js-menu-panel style="display: none">
                     <a href="#" data-js-menu-item>Option 1</a>
                     <a href="#" data-js-menu-item>Option 2</a>
@@ -21,11 +22,17 @@
             </div>
         </section>
         <!-- Dialog (modal) section -->
-        <div data-js-dialog style="display: none">
-            <div data-js-dialog-panel>
-                <div data-js-dialog-title>Modal</div>
-                <div data-js-dialog-description>This is a modal</div>
+        <section>
+            Modals
+            <button data-js-dialog-button="#modal-1">Open Dialog</button>
+            <div id="modal-1" data-js-dialog style="display: none">
+                <div data-js-dialog-panel>
+                    <div data-js-dialog-title>Modal</div>
+                    <div data-js-dialog-description>This is a modal</div>
+                    <p>Body of modal with other stuff</p>
+                    <button data-js-dialog-button>Close Dialog</button>
+                </div>
             </div>
-        </div>
+        </section>
     </body>
 </html>

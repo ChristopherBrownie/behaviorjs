@@ -67,7 +67,7 @@
     }
 
     function init() {
-        console.log('initializing...');
+        console.log('initializing menus...');
         let menus = document.querySelectorAll(self.selector());
         for (let i = 0; i < menus.length; i++) {
             let menu = menus[i];
@@ -114,6 +114,7 @@
      * @param {HTMLElement} menu
      */
     function open(menu) {
+        console.log('Opening menu...');
         let button = menu.querySelector(
             '[' + window.prefix + self.buttonAttr + ']',
         );
@@ -129,6 +130,7 @@
      * @param {boolean} preventScroll
      */
     function close(menu, preventScroll) {
+        console.log('Closing menu...');
         let button = menu.querySelector(
             '[' + window.prefix + self.buttonAttr + ']',
         );
@@ -145,7 +147,7 @@
      * @param {HTMLElement} menu
      */
     function toggle(menu) {
-        console.log('Menu toggled');
+        console.log('Menu toggled...');
         let button = menu.querySelector(
             '[' + window.prefix + self.buttonAttr + ']',
         );

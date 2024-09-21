@@ -1,3 +1,5 @@
-// Central settings
+import dialog from './behaviors/dialog.js';
+import menu from './behaviors/menu.js';
 
-window.prefix = 'data-js-';
+dialog.init();
+menu.init();

@@ -3,24 +3,16 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Test behaviorjs</title>
-        <script src="src/main.js" type="module"></script>
+        <title>Dialogs (modals)</title>
+        <script type="module">
+            import dialog from '../src/behaviors/dialog.js';
+
+            dialog.init();
+        </script>
     </head>
     <body>
-        <!-- Menu (dropdown) section -->
+        <h1>Dialogs</h1>
         <section>
-            Menus
-            <div data-js-menu>
-                <button data-js-menu-button>Open Menu</button>
-                <div data-js-menu-panel style="display: none">
-                    <a href="#" data-js-menu-item>Option 1</a>
-                    <a href="#" data-js-menu-item>Option 2</a>
-                </div>
-            </div>
-        </section>
-        <!-- Dialog (modal) section -->
-        <section>
-            Modals
             <button data-js-dialog-button="#modal-1">Open Dialog</button>
             <div id="modal-1" data-js-dialog style="display: none">
                 <div data-js-dialog-panel>
